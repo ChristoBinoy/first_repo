@@ -5,8 +5,8 @@
    box-sizing:border-box;
 }
 body{
-    background: #080808;
-    color: #fff;
+    background: #000000;
+    color: #0615dd;
 }
 #header{
     width: 100%;
@@ -27,12 +27,12 @@ nav{
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 20px 30px;
 }
 nav ul li a{
-    color:black;
+    color:rgb(16, 206, 48);
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     position: relative;
 }
 nav ul li a::after{
@@ -48,7 +48,7 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width:100%;
 }
-.header text{
+.header-text{
     margin-top:20%;
     font-size: 30px;
 }
@@ -56,6 +56,6 @@ nav ul li a:hover::after{
     font-size: 70px;
     margin-top:30 px;
 }
-.header-text h1 span{
+.header-text h1 .span{
     color: #ff004f;
 }
